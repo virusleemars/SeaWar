@@ -16,10 +16,34 @@
 			}
 			tr { 
 				height: 40px;
-			} 
+			}
+			#menu {
+				position: absolute;
+				top : 10px;
+				left: 100px;
+			}
+			#setup {
+				position: absolute;
+				top : 150px;
+				left: 1100px;
+			}
 		</style>		
 	</head>
 	<body>
+	<div id="menu">
+		<input type="button" id="buttonNewGame" value="Старт игры">
+		<input type="button" id="buttonStopGame" value="Стоп игры">
+	</div>	
+	<div id="setup">
+		<input type="button" id="buttonAuto" value="Автоматически"> <br>
+		<input type="button" id="buttonClear" value="Очистить"> <br>
+		
+		<input type="button" id="buttonRotate" value="Повернуть"> <br>
+		<input type="button" id="setship4" value="4 палубный"> <br>
+		<input type="button" id="setship3" value="3 палубный"> <br>
+		<input type="button" id="setship2" value="2 палубный"> <br>
+		<input type="button" id="setship1" value="1 палубный"> <br>
+	</div>
 		<script src="script.js" charset="utf-8"></script>
 	</body>
 </html>
